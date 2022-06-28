@@ -1,0 +1,28 @@
+.header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.header .header__navbar {
+    background-color: #04AEEE;
+    height: 110px;
+}
+.header .header__image {
+    flex: 1;
+    background-size: cover;
+    background-image: url(../images/header-hero.png);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 96px;
+    color: #494949;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+@media (max-width: 900px) {
+    .header .header__image {
+       font-size: 44px;
+       text-align: center;
+    }
+}
