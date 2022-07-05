@@ -7,7 +7,7 @@
     background-color: #04AEEE;
     height: 110px;
 }
-.header .header__image {
+.header__image {
     flex: 1;
     background-size: cover;
     background-image: url(../images/header-hero.png);
