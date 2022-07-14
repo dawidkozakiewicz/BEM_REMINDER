@@ -5,6 +5,14 @@
     background-color: rgb(4 174 238);
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .col-xs-1 {
