@@ -16,8 +16,8 @@
 .header__image {
     flex: 1;
     background-size: cover;
-    background-image: url(../images/header-hero.png);
-
+    background-image: url(../images/Frame\ 4.svg);
+background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
