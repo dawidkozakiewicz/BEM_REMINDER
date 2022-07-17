@@ -5,30 +5,32 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .header__navbar {
-    background-color: #04AEEE;
+    /* background-color: rgb(109 161 202); */
     height: 110px;
     width: 100%;
     max-width: 1200px;
     position: fixed;
-    border: 1px solid black;
 }
+
 .header__image {
     flex: 1;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
     background-image: url(../images/Frame\ 4.svg);
-background-repeat: no-repeat;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 96px;
+    font-size: 50px;
     color: #494949;
     font-family: 'Ropa Sans', sans-serif;
 }
 
 @media (max-width: 900px) {
     .header .header__image {
-       font-size: 44px;
-       text-align: center;
+        font-size: 44px;
+        text-align: center;
     }
 }
