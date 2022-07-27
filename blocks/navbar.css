@@ -6,6 +6,8 @@
     /* max-width: 900px; */
     background-color: #ffffffdb;
     margin: auto;
+    border-bottom: 1px solid #6da1ca87;
+
 }
 .navbar__brand {
     font-size: 48px;
