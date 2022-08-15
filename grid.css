@@ -2,12 +2,15 @@
     max-width: 1200px;
     margin: 0 auto;
     /* background-color: rgb(109 161 202); */
+    border: 1px solid red;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    border: 1px solid blue;
+    justify-content: center;
 }
 
 
